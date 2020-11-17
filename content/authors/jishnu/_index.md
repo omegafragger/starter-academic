@@ -40,7 +40,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:jishnu.mukhoti@eng.ox.ac.uk"
+  link: "mailto:jishnu@robots.ox.ac.uk"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/JishnuMukhoti

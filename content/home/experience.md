@@ -18,27 +18,71 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "PhD Student"
+  company = "University of Oxford"
+  company_url = "https://eng.ox.ac.uk/"
+  location = "Oxford, UK"
+  date_start = "2019-10-02"
   date_end = ""
   description = """
-  Responsibilities include:
+  Research on:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Uncertainty and Calibration of Deep Neural Networks
+  * Application of uncertainty to Computer Vision and Natural Language Processing
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Research Intern"
+  company = "FiveAI"
+  company_url = "https://five.ai/"
+  location = "Oxford, UK"
+  date_start = "2018-08-28"
+  date_end = "2019-08-31"
+  description = """Research on Computer Vision and Deep Learning problems relevant to autonomous driving.
+  Specific problems include calibration of deep neural networks and its application to image classification and OOD detection.
 
+  """
+
+[[experience]]
+  title = "Graduate Student (MSc) in Computer Science"
+  company = "University of Oxford"
+  company_url = "http://www.cs.ox.ac.uk/"
+  location = "Oxford, UK"
+  date_start = "2017-10-07"
+  date_end = "2018-09-30"
+  description = """Pursued MSc in Computer Science with focus on Machine Learning
+  """
+
+[[experience]]
+  title = "Software Development Engineer (SDE)"
+  company = "Amazon Development Centre"
+  company_url = "https://www.amazon.com/"
+  location = "Hyderabad, India"
+  date_start = "2016-06-25"
+  date_end = "2017-08-31"
+  description = """Responsibilities included:
+
+  * Design and implement a method to support real-time data transfer from OLTP datastores to OLAP datastores.
+  * Design and implement APIs that can scale and support Amazon's seller platform launching in new countries with minimal effort.
+  """
+
+[[experience]]
+  title = "Software Development Intern (SDE-Intern)"
+  company = "Amazon Development Centre"
+  company_url = "https://www.amazon.com/"
+  location = "Hyderabad, India"
+  date_start = "2015-05-15"
+  date_end = "2015-07-15"
+  description = """Designed and implemented a validation engine to automate the workflow of validating critical fields in database records. The process sped up from a week to less than 10 seconds due to the automation.
+  """
+
+[[experience]]
+  title = "Undergraduate (BE) Student"
+  company = "Jadavpur University"
+  company_url = "http://www.jaduniv.edu.in/"
+  location = "Kolkata, India"
+  date_start = "2012-06-15"
+  date_end = "2016-05-15"
+  description = """Pursued my Bachelor's degree in Computer Science and Engineering.
+  """
 +++
