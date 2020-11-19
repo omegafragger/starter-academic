@@ -1,8 +1,9 @@
 ---
 title: "On the Importance of Strong Baselines in Bayesian Deep Learning"
 authors:
-- Jishnu Mukhoti
-- Pontus Stenetorp, Yarin Gal
+ - Jishnu Mukhoti
+ - Pontus Stenetorp, Yarin Gal
+
 date: "2018-12-07T00:00:00Z"
 doi: ""
 

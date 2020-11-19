@@ -6,7 +6,7 @@ title: Jishnu Mukhoti
 superuser: true
 
 # Role/position
-role: PhD Student in Machine Learning
+role: DPhil (PhD) Student in Machine Learning
 
 # Organizations/Affiliations
 organizations:
