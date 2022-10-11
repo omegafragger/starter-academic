@@ -28,8 +28,32 @@ date_format = "Jan 2006"
   Research on:
   
   * Uncertainty and Calibration of Deep Neural Networks
-  * Application of uncertainty to Computer Vision and Natural Language Processing
+  * Application in large scale computer vision problems
+  * Multi-modal foundation models
   """
+
+
+[[experience]]
+  title = "Research Intern"
+  company = "Meta AI"
+  company_url = "https://ai.facebook.com/"
+  location = "New York City"
+  date_start = "2022-05-31"
+  date_end = "2022-09-16"
+  description = """Worked on improving multi-modal foundation models for a suite of open vocabulary computer vision tasks. 
+  """
+
+
+[[experience]]
+  title = "Research Intern"
+  company = "Meta AI"
+  company_url = "https://ai.facebook.com/"
+  location = "Remote"
+  date_start = "2021-06-07"
+  date_end = "2021-09-16"
+  description = """Worked on generating a benchmark of out-of-distribution samples directly from any given training set. The generated samples provide a stronger reliable benchmark for evaluating OoD detection methods.
+  """
+
 
 [[experience]]
   title = "Research Intern"
@@ -40,7 +64,6 @@ date_format = "Jan 2006"
   date_end = "2019-08-31"
   description = """Research on Computer Vision and Deep Learning problems relevant to autonomous driving.
   Specific problems include calibration of deep neural networks and its application to image classification and OOD detection.
-
   """
 
 [[experience]]

@@ -1,10 +1,11 @@
 ---
-title: "On the Importance of Strong Baselines in Bayesian Deep Learning"
+title: "Deep Deterministic Uncertainty for Semantic Segmentation"
 authors:
- - Jishnu Mukhoti
- - Pontus Stenetorp, Yarin Gal
-
-date: "2018-12-07T00:00:00Z"
+- Jishnu Mukhoti
+- Joost van Amersfoort
+- Philip H.S. Torr
+- Yarin Gal
+date: "2021-10-29T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,13 +18,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *NeurIPS, 2018 Workshop on Bayesian Deep Learning*
-publication_short: In *NeurIPS 2018, BDL Workshop*
+publication: In *ICML UDL Workshop, 2021*
+publication_short: In *ICML UDL Workshop, 2021*
 
-abstract: Like all sub-fields of machine learning Bayesian Deep Learning is driven by empirical validation of its theoretical proposals. Given the many aspects of an experiment it is always possible that minor or even major experimental flaws can slip by both authors and reviewers. One of the most popular experiments used to evaluate approximate inference techniques is the regression experiment on UCI datasets. However, in this experiment, models which have been trained to convergence have often been compared with baselines trained only for a fixed number of iterations. We find that a well-established baseline, Monte Carlo dropout, when evaluated under the same experimental settings shows significant improvements. In fact, the baseline outperforms or performs competitively with methods that claimed to be superior to the very same baseline method when they were introduced. Hence, by exposing this flaw in experimental procedure, we highlight the importance of using identical experimental setups to evaluate, compare, and benchmark methods in Bayesian Deep Learning.
+abstract: We extend Deep Deterministic Uncertainty (DDU), a method for uncertainty estimation using feature space densities, to semantic segmentation. DDU enables quantifying and disentangling epistemic and aleatoric uncertainty in a single forward pass through the model. We study the similarity of feature representations of pixels at different locations for the same class and conclude that it is feasible to apply DDU location independently, which leads to a significant reduction in memory consumption compared to pixel dependent DDU. Using the DeepLab-v3+ architecture on Pascal VOC 2012, we show that DDU improves upon MC Dropout and Deep Ensembles while being significantly faster to compute.
 
 # Summary. An optional shortened abstract.
-summary: We re-evaluate MC Dropout by performing grid-search over dropout rates to generate significantly stronger baselines and compare MC Dropout with other state-of-the-art VI approaches.
+summary: Using DDU as a method for semantic segmentation provides epistemic and aleatoric uncertainty estimates from a single deterministic model, an improvement over previous methods like MC Dropout and Deep Ensembles.
 
 tags:
 - Source Themes
@@ -32,9 +33,9 @@ featured: true
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: http://bayesiandeeplearning.org/2018/papers/42.pdf
-url_code: 'https://github.com/yaringal/DropoutUncertaintyExps'
-# url_dataset: '#'
+url_pdf: http://www.gatsby.ucl.ac.uk/~balaji/udl2021/accepted-papers/UDL2021-paper-089.pdf
+# url_code: 'https://github.com/omegafragger/DDU'
+# url_dataset: 'https://blackhc.github.io/ddu_dirty_mnist/'
 # url_poster: '#'
 # url_project: 'https://torrvision.github.io/focal_calibration'
 # url_slides: ''
