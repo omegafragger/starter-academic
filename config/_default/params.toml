@@ -88,16 +88,16 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "jishnu@robots.ox.ac.uk"
+email = "jishnu.mukhoti@eng.ox.ac.uk"
 phone = "+44 7948048769"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Wolfson College, Linton Road", city = "Oxford", region = "Oxfordshire", postcode = "OX2 6UD", country = "United Kingdom", country_code = "UK"}
+address = {street = "34 Cranham Street", city = "Oxford", region = "Oxfordshire", postcode = "OX2 6DD", country = "United Kingdom", country_code = "UK"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "51.770878", longitude = "-1.2556357"}
+coordinates = {latitude = "51.75913587772271", longitude = "-1.2695131576711052"}
 
 # Directions for visitors to locate you.
 directions = ""
