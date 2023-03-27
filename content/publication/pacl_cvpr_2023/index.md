@@ -1,12 +1,14 @@
 ---
-title: "Deep Deterministic Uncertainty: A Simple Baseline"
+title: "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning"
 authors:
 - Jishnu Mukhoti
-- Andreas Kirsch
-- Joost van Amersfoort
+- Tsung-Yu Lin
+- Omid Poursaeed
+- Rui Wang
+- Ashish Shah
 - Philip H.S. Torr
-- Yarin Gal
-date: "2021-02-23T00:00:00Z"
+- Ser-Nam Lim
+date: "2023-03-24T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,13 +21,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv:2102.11582*
-publication_short: In *arXiv:2102.11582*
+publication: In IEEE/CVF Computer Vision and Pattern Recognition Conference, 2023 (Highlight)
+publication_short: In CVPR 2023 (Highlight)
 
-abstract: Reliable uncertainty from deterministic single-forward pass models is sought after because conventional methods of uncertainty quantification are computationally expensive. We take two complex single-forward-pass uncertainty approaches, DUQ and SNGP, and examine whether they mainly rely on a well-regularized feature space. Crucially, without using their more complex methods for estimating uncertainty, a single softmax neural net with such a feature-space, achieved via residual connections and spectral normalization, *outperforms* DUQ and SNGP's epistemic uncertainty predictions using simple Gaussian Discriminant Analysis *post-training* as a separate feature-space density estimator -- without fine-tuning on OoD data, feature ensembling, or input pre-procressing. This conceptually simple *Deep Deterministic Uncertainty (DDU)* baseline can also be used to disentangle aleatoric and epistemic uncertainty and performs as well as Deep Ensembles, the state-of-the art for uncertainty prediction, on several OoD benchmarks (CIFAR-10/100 vs SVHN/Tiny-ImageNet, ImageNet vs ImageNet-O) as well as in active learning settings across different model architectures, yet is *computationally cheaper*.
+abstract: We introduce Patch Aligned Contrastive Learning (PACL), a modified compatibility function for CLIP's contrastive loss, intending to train an alignment between the patch tokens of the vision encoder and the CLS token of the text encoder. With such an alignment, a model can identify regions of an image corresponding to a given text input, and therefore transfer seamlessly to the task of open vocabulary semantic segmentation without requiring any segmentation annotations during training. Using pre-trained CLIP encoders with PACL, we are able to set the state-of-the-art on the task of open vocabulary zero-shot segmentation on 4 different segmentation benchmarks, Pascal VOC, Pascal Context, COCO Stuff and ADE20K. Furthermore, we show that PACL is also applicable to image-level predictions and when used with a CLIP backbone, provides a general improvement in zero-shot classification accuracy compared to CLIP, across a suite of 12 image classification datasets.
 
 # Summary. An optional shortened abstract.
-summary: A deterministic deep neural network with sensitivity and smoothness (bi-Lipschitz) constraints on its feature space can be used to quantify epistemic uncertainty from an estimate of density in feature space and aleatoric uncertainty from the entropy of its softmax distribution.
+summary: We propose a modified contrastive loss function which allows training an alignment between patch tokens of a vision encoder and text CLS token of CLIP like models. This loss allows for easy seamless transfer to semantic segmentation without requiring additional annotations.
 
 tags:
 - Source Themes
@@ -34,9 +36,9 @@ featured: true
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: https://arxiv.org/pdf/2102.11582.pdf
-url_code: 'https://github.com/omegafragger/DDU'
-url_dataset: 'https://blackhc.github.io/ddu_dirty_mnist/'
+url_pdf: https://arxiv.org/pdf/2212.04994.pdf
+# url_code: 'https://github.com/omegafragger/DDU'
+# url_dataset: 'https://blackhc.github.io/ddu_dirty_mnist/'
 # url_poster: '#'
 # url_project: 'https://torrvision.github.io/focal_calibration'
 # url_slides: ''
