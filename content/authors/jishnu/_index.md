@@ -14,12 +14,11 @@ organizations:
   url: "https://eng.ox.ac.uk"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robustness and uncertainty quantification in deep neural networks with applications in large scale computer vision problems.
+bio: My research interests include uncertainty quantification in deep neural networks with applications in large scale computer vision problems. I am also interested in foundation models.
 
 interests:
-- Scalable uncertainty quantification in neural networks
-- Robustness of deep neural networks
-- Multi-modal foundation models
+- Uncertainty quantification in deep neural networks
+- Foundation models
 
 education:
   courses:
@@ -69,6 +68,6 @@ user_groups:
 - Visitors
 ---
 
-I am a final year DPhil (PhD) student in the Department of Engineering Science at the University of Oxford, advised by Professor [Philip Torr](http://www.robots.ox.ac.uk/~phst) in the [*Torr Vision Group*](http://www.robots.ox.ac.uk/~tvg) and Professor [Yarin Gal](http://www.cs.ox.ac.uk/people/yarin.gal/website) in [*Oxford Applied and Theoretical Machine Learning Group*](https://oatml.cs.ox.ac.uk). I have also been closely supervised by [Dr. Puneet Dokania](https://puneetkdokania.github.io). I obtained my Bachelor of Engineering degree in Computer Science and Engineering from *Jadavpur University*, Kolkata, India and completed my Master of Science (MSc) in Computer Science from the *University of Oxford*.
+I am a final year DPhil (PhD) student in the Department of Engineering Science at the University of Oxford, advised by Professor [Philip Torr](http://www.robots.ox.ac.uk/~phst) in [Torr Vision Group](http://www.robots.ox.ac.uk/~tvg) and Professor [Yarin Gal](http://www.cs.ox.ac.uk/people/yarin.gal/website) in [OATML](https://oatml.cs.ox.ac.uk). I have also been closely supervised by [Dr. Puneet Dokania](https://puneetkdokania.github.io). Previously, I obtained my Bachelor of Engineering degree in Computer Science and Engineering from Jadavpur University, Kolkata, India and completed my Master of Science (MSc) in Computer Science from the University of Oxford.
 
-My research mainly focuses on *simple and scalable uncertainty quantification in deep neural networks* with applications in large computer vision problems. I am also interested in multi-modal foundation models.
+My research mainly focuses on *scalable uncertainty quantification in deep neural networks* with applications in large computer vision problems. I am also interested in *foundation models*.
